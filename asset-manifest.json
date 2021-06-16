@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/brophy-portfolio/static/css/main.7a76a961.chunk.css",
-    "main.js": "/brophy-portfolio/static/js/main.2d890fb9.chunk.js",
-    "main.js.map": "/brophy-portfolio/static/js/main.2d890fb9.chunk.js.map",
+    "main.css": "/brophy-portfolio/static/css/main.b1dfecb8.chunk.css",
+    "main.js": "/brophy-portfolio/static/js/main.952cd944.chunk.js",
+    "main.js.map": "/brophy-portfolio/static/js/main.952cd944.chunk.js.map",
     "runtime-main.js": "/brophy-portfolio/static/js/runtime-main.bcf9bbb3.js",
     "runtime-main.js.map": "/brophy-portfolio/static/js/runtime-main.bcf9bbb3.js.map",
     "static/css/2.61b4cb56.chunk.css": "/brophy-portfolio/static/css/2.61b4cb56.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.c97d5eb2.chunk.js.map": "/brophy-portfolio/static/js/3.c97d5eb2.chunk.js.map",
     "index.html": "/brophy-portfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/brophy-portfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.7a76a961.chunk.css.map": "/brophy-portfolio/static/css/main.7a76a961.chunk.css.map",
+    "static/css/main.b1dfecb8.chunk.css.map": "/brophy-portfolio/static/css/main.b1dfecb8.chunk.css.map",
     "static/js/2.d6c1983f.chunk.js.LICENSE.txt": "/brophy-portfolio/static/js/2.d6c1983f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bcf9bbb3.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.d6c1983f.chunk.js",
-    "static/css/main.7a76a961.chunk.css",
-    "static/js/main.2d890fb9.chunk.js"
+    "static/css/main.b1dfecb8.chunk.css",
+    "static/js/main.952cd944.chunk.js"
   ]
 }
