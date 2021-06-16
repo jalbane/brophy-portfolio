@@ -39,9 +39,8 @@ const particlesOptions={
 function App() {
   return (
     <div className="App">
- 
       <HashRouter>
-        <Navbar className = 'main-bar'bg ="dark" expand="lg" style={{height: "5.6vh"}}><div id ="siteName"> Bropholio </div>
+        <Navbar className = 'main-bar'bg ="dark" expand="md"><div id ="siteName"> Bropholio </div>
           <NavLink to="/about"> <Button variant="light">About</Button> </NavLink>
           <NavLink to="/portfolio"> <Button variant="light">Portfolio</Button> </NavLink>
           <NavLink to="/photos"> <Button variant="light">Photo Album</Button> </NavLink>
@@ -52,9 +51,9 @@ function App() {
       </HashRouter>
       <Particles params={particlesOptions}/>
       <footer>
-          <div className="footerInfo">A B </div>
-          <div className="footerInfo"> Cell Phone: 555-555-5555 </div>
-          <div className="footerInfo"> Email: asdf@mail.com</div>
+        <div> Anthony Brophy</div>
+        <div> Cell Phone: 555-555-5555</div>
+        <div> Email: asdf@mail.com</div>
       </footer>
     </div>
   );

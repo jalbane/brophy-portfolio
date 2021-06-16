@@ -49,28 +49,121 @@ button.btn.btn-light{
   color: white;
 }
 
-.footerInfo{
-  width: 100%;
-  font-size: 24px;
-}
-
-footer{
-  width: 50%;  
-  margin: auto;
-  background-color: white;
-  position: fixed;
-  bottom: 0;
-  right: 0%;
-  left: 0%;
-  height:14.4vh;
-  border: solid black 1.5px; 
-  border-bottom: none; 
-  border-top:none;
-  box-shadow: 5px 15px 10px;
-}
-
 #tsparticles{
   display: block;
   height: 94.4vh;
 }
 
+footer{
+  background-color: transparent; 
+  position:fixed; 
+  margin:auto; 
+  bottom: 0;
+  width: 50%; 
+  left:0%; 
+  right:0%; 
+  text-align:center;  
+  border-radius: 10px;
+} 
+footer > div{
+  padding: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  button.btn.btn-light{
+    font-size: 13px;
+    margin: 4px;
+  }
+  .navbar{
+    height: 7vh;
+  }
+  footer{
+    bottom: 0;
+  }
+  footer > div{
+    font-size: 16px;
+  }
+}
+
+/*@media screen and (max-width: 550px) {
+  button.btn.btn-light{
+    font-size: 13px;
+    margin: 4px;
+  }
+  .navbar{
+    height: 7vh;
+  }
+  footer{
+    bottom: 0;
+  }
+  footer > div{
+    font-size: 16px;
+  }
+}*/
+
+@media screen and (max-width: 725px) {
+  button.btn.btn-light{
+    font-size: 13px;
+    margin: 4px;
+  }
+  .navbar{
+    height: 7vh;
+  }
+  footer{
+    bottom: 0;
+  }
+  footer > div{
+    font-size: 16px;
+  }
+}
+/*
+@media screen and (max-width: 900px) {
+  button.btn.btn-light{
+    font-size: 13px;
+    margin: 4px;
+  }
+  .navbar{
+    height: 7vh;
+  }
+  footer{
+    bottom: 0;
+  }
+  footer > div{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  button.btn.btn-light{
+    font-size: 20px;
+    margin: 15px;
+  }
+  .navbar{
+    height: 10vh;
+  }
+  footer{
+    position: fixed;
+    bottom: 0;
+  }
+  footer > div{
+    font-size: 36px;
+  }
+}
+*/
+@media screen and (max-width: 2000px) {
+  footer{
+    background-color: transparent; 
+    position:fixed; 
+    margin:auto; 
+    bottom: 0;
+    width: 50%; 
+    left:0%; 
+    right:0%; 
+    text-align:center;  
+    border-radius: 10px;
+    font-size: 24px;
+  }
+  footer > div{
+    padding: 10px;
+  }
+}
