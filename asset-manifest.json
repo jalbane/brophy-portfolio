@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brophy-portfolio/static/css/main.d54701da.chunk.css",
+    "main.css": "/brophy-portfolio/static/css/main.a0745beb.chunk.css",
     "main.js": "/brophy-portfolio/static/js/main.8b95e257.chunk.js",
     "main.js.map": "/brophy-portfolio/static/js/main.8b95e257.chunk.js.map",
     "runtime-main.js": "/brophy-portfolio/static/js/runtime-main.792aebce.js",
@@ -12,7 +12,7 @@
     "static/js/3.5c28538b.chunk.js.map": "/brophy-portfolio/static/js/3.5c28538b.chunk.js.map",
     "index.html": "/brophy-portfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/brophy-portfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.d54701da.chunk.css.map": "/brophy-portfolio/static/css/main.d54701da.chunk.css.map",
+    "static/css/main.a0745beb.chunk.css.map": "/brophy-portfolio/static/css/main.a0745beb.chunk.css.map",
     "static/js/2.0b1b6dcb.chunk.js.LICENSE.txt": "/brophy-portfolio/static/js/2.0b1b6dcb.chunk.js.LICENSE.txt",
     "static/media/test-img.c7e4b742.png": "/brophy-portfolio/static/media/test-img.c7e4b742.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.792aebce.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.0b1b6dcb.chunk.js",
-    "static/css/main.d54701da.chunk.css",
+    "static/css/main.a0745beb.chunk.css",
     "static/js/main.8b95e257.chunk.js"
   ]
 }
