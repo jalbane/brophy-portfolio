@@ -1,0 +1,38 @@
+.portfolio{
+	position: absolute; 
+	z-index: 1;
+	top: 20%; 
+	left: 0%; 
+	right: 0%; 
+	width: 90%; 
+	margin: auto; 
+	background-color: white; 
+	height: 60vh;
+	border-radius: 10px; 
+	box-shadow: rgba(0,0,0,8%) 0px 2px 15px;
+}
+
+@media screen and (min-width: 401px) {
+	.portfolio{
+		top: 20%; 
+	}
+}
+
+@media screen and (min-width: 639px) and (orientation: landscape){
+	.portfolio{
+		top: 33%;
+	}
+}
+
+@media screen and (min-width: 969px) and (orientation: landscape){
+	.portfolio{
+		top: 15%;
+		width: 80%;
+	}
+}
+@media screen and (min-width: 1366px) and (orientation: landscape){
+  .portfolio{
+  	width: 50%;
+  }
+
+}

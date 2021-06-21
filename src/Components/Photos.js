@@ -1,10 +1,38 @@
 import React from 'react';
+import './Stylesheets/photos.css'
+import Carousel from 'react-bootstrap/Carousel';
+import testLogo from './Images/test-img.png';
 
 function Photos(){
 	return(
-		<div style ={{position: "absolute", top: "10%", left: "0%", right: "0%", width: "50%", margin: "auto", backgroundColor: "white", height: "70vh",
-		 borderRadius: "10px", boxShadow: "5px 8px 5px 1px"}}>
-			<div style={{height:"100%", marginTop: "10%" }}> hello from photos </div>
+		<div className = "photos" >
+				<Carousel>
+				  <Carousel.Item>
+				    <img
+				      
+				      src={testLogo}
+				      alt="First slide"
+				    />
+				  </Carousel.Item>
+				  <Carousel.Item>
+				    <img
+				      
+				      src={testLogo}
+				      alt="Second slide"
+				    />
+
+		
+				  </Carousel.Item>
+				  <Carousel.Item>
+				    <img
+				    
+				      src={testLogo}
+				      alt="Third slide"
+				    />
+
+			
+				  </Carousel.Item>
+				</Carousel>
 		</div>
 	)
 }

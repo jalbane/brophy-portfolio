@@ -1,0 +1,71 @@
+.photos{
+	position: absolute;
+	z-index: 1; 
+	top: 20%; 
+	left: 0%; 
+	right: 0%; 
+	width: 90%; 
+	margin: auto; 
+	background-color: white; 
+	height: 60vh;
+	border-radius: 10px; 
+	box-shadow: rgba(0,0,0,8%) 0px 2px 55px;
+}
+div.carousel.slide{
+	position: absolute;
+	z-index: 0;
+	top: 10%;
+	left: 0%;
+	right: 0%;
+	margin: auto;
+	height: 80%;
+	width: 95%;
+	background-color: rgb(237,237,237);
+}
+
+img{
+	object-fit: contain;
+	width: 50%;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	color: white;
+	background-color: rgb(237,237,237);
+	text-decoration: none;
+	width: 25%;
+	transition: none;
+	opacity: 1;
+}
+
+@media screen and (min-width: 401px) {
+	.photos{
+		top: 20%; 
+	}
+}
+
+@media screen and (min-width: 639px) and (orientation: landscape){
+	.photos{
+		top: 33%;
+	}
+}
+
+@media screen and (min-width: 1023px) and (orientation: portrait){
+	.photos{
+		top: 15%;
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 969px) and (orientation: landscape){
+	.photos{
+		top: 15%;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1366px) and (orientation: landscape){
+  .photos{
+  	width: 50%;
+  }
+
+}

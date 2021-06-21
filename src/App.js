@@ -40,21 +40,24 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-        <Navbar className = 'main-bar'bg ="dark" expand="md"><div id ="siteName"> Bropholio </div>
-          <NavLink to="/about"> <Button variant="light">About</Button> </NavLink>
-          <NavLink to="/portfolio"> <Button variant="light">Portfolio</Button> </NavLink>
-          <NavLink to="/photos"> <Button variant="light">Photo Album</Button> </NavLink>
+        <Navbar className = 'main-bar'bg ="dark" expand="md"><div id ="siteName">Bropholio</div>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <NavLink to="/" style={{textDecoration: "none"}}> <Button variant="light">About</Button> </NavLink>
+            <NavLink exact to="/portfolio" style={{textDecoration: "none"}}> <Button  variant="light">Portfolio</Button> </NavLink>
+            <NavLink exact to="/photos" style={{textDecoration: "none"}}> <Button variant ="light">Photo Album</Button> </NavLink>
+          </Navbar.Collapse>
         </Navbar> 
-        <Route path = "/about" component = {About}/>
+        <Route path = "/" component = {About}/>
         <Route path = "/portfolio" component = {Portfolio}/>
         <Route path = "/photos" component = {Photos}/>
       </HashRouter>
       <Particles params={particlesOptions}/>
-      <footer>
-        <div> Anthony Brophy</div>
-        <div> Cell Phone: 555-555-5555</div>
-        <div> Email: asdf@mail.com</div>
-      </footer>
+      {/*<footer>
+        <div className = "footNm"> Anthony Brophy</div>
+        <div className = "footNm"> Cell Phone: 555-555-5555</div>
+        <div className = "footNm"> Email: asdf@mail.com</div>
+      </footer>*/}
     </div>
   );
 }

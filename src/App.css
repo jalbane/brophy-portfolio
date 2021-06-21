@@ -2,7 +2,7 @@
   text-align: center;
   background-color: rgb(237,237,237);
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .App-logo {
@@ -39,131 +39,141 @@
     transform: rotate(360deg);
   }
 }
-
 button.btn.btn-light{
-  margin-left: 10px;
+  margin: auto;
+  margin-top: 10px;
+  height: 45px;
+  min-width: 50px;
+  padding: 10px;
 }
 
 #siteName{
-  font-size: 24px;
+  padding: 0px;
+  margin-left: 5px;
+  font-size: 18px;
   color: white;
 }
+canvas{
+  position: absolute;
+  top: 11vh;
+  left: 0px;
+  z-index: 0;
+  max-height: 88vh;
+}
 
-#tsparticles{
+.navbar-collapse.collapse.show{
   display: block;
-  height: 94.4vh;
+  margin: auto;
+  height: 65px;
 }
 
 footer{
-  background-color: transparent; 
-  position:fixed; 
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  background-color: white; 
   margin:auto; 
-  bottom: 0;
-  width: 50%; 
+  bottom: 0px;
+  width: 90%; 
   left:0%; 
   right:0%; 
   text-align:center;  
   border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  box-shadow: 5px 8px 5px 1px;
 } 
-footer > div{
-  padding: 10px;
+
+.navbar{
+  width: 100%;
+  min-height: 11vh;
 }
 
-@media screen and (max-width: 375px) {
-  button.btn.btn-light{
-    font-size: 13px;
-    margin: 4px;
-  }
-  .navbar{
-    height: 7vh;
-  }
-  footer{
-    bottom: 0;
-  }
-  footer > div{
-    font-size: 16px;
-  }
+nav.main-bar{
+  padding: 0px;
 }
 
-/*@media screen and (max-width: 550px) {
-  button.btn.btn-light{
-    font-size: 13px;
-    margin: 4px;
-  }
-  .navbar{
-    height: 7vh;
-  }
-  footer{
-    bottom: 0;
-  }
-  footer > div{
-    font-size: 16px;
-  }
-}*/
-
-@media screen and (max-width: 725px) {
-  button.btn.btn-light{
-    font-size: 13px;
-    margin: 4px;
-  }
-  .navbar{
-    height: 7vh;
-  }
-  footer{
-    bottom: 0;
-  }
-  footer > div{
-    font-size: 16px;
-  }
+#navButtons{
+  position: absolute;
+  display: block;
+  top: 10%;
+  margin-left: 0px;
+  padding: 0px;
 }
-/*
-@media screen and (max-width: 900px) {
-  button.btn.btn-light{
-    font-size: 13px;
-    margin: 4px;
-  }
-  .navbar{
-    height: 7vh;
-  }
-  footer{
-    bottom: 0;
-  }
-  footer > div{
-    font-size: 16px;
+
+@media screen and (min-width: 401px) and (orientation: portrait){
+  canvas{
+    max-height: 89vh;
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (min-width: 639px) and (orientation: landscape){
+  canvas{
+    top: 29%;
+  }
+  nav.main-bar{
+    height: 20%;
+  }
+
+  .navbar-collapse.collapse{
+    height: 100%;
+  }
+  .navbar-collapse.collapse.show{
+    padding: 0px;
+    height: 100%;
+    background-color: #212529;
+  }
+}
+
+
+@media screen and (min-width: 767px) and (orientation: portrait){
+  canvas{
+    top: 11%;
+  }
   button.btn.btn-light{
+    margin: 0px 8px 0px 8px;
+    height: auto;
     font-size: 20px;
-    margin: 15px;
-  }
-  .navbar{
-    height: 10vh;
-  }
-  footer{
-    position: fixed;
-    bottom: 0;
-  }
-  footer > div{
-    font-size: 36px;
-  }
-}
-*/
-@media screen and (max-width: 2000px) {
-  footer{
-    background-color: transparent; 
-    position:fixed; 
-    margin:auto; 
-    bottom: 0;
-    width: 50%; 
-    left:0%; 
-    right:0%; 
-    text-align:center;  
-    border-radius: 10px;
-    font-size: 24px;
-  }
-  footer > div{
     padding: 10px;
   }
+  .navbar-collapse.collapse{
+    margin: auto;
+    margin-left: 2.5%;
+  }
+
+  .navbar-collapse.collapse.show{
+    margin-left: 2.5%; 
+  }
+  #siteName{
+    font-size: 28px;
+    position: auto;
+    width: 15%;
+  }
+
+}
+
+@media screen and (min-width: 949px) and (orientation: landscape){
+   #siteName{
+    font-size: 28px;
+    position: auto;
+    width: 12%;
+  }
+  nav.main-bar{
+    height: 10%;
+  }
+  canvas{
+    top: 10%;
+  }
+  button.btn.btn-light{
+    margin: 0px 8px 0px 8px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (orientation: landscape){
+  #siteName{
+    font-size: 28px;
+    position: auto;
+    width: 8%;
+  }
+
 }
